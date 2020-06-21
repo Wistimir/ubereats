@@ -1,0 +1,70 @@
+/* Search */
+
+.search {
+  margin: 56px 0;
+}
+
+.search__input {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.search__input::placeholder {
+  color: #d6d6d6;
+}
+
+.search__input:focus {
+  outline: none;
+}
+
+/* Restaurants */
+
+.restaurants__title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+
+  color: #1D1D1D;
+}
+
+.cards {
+  margin-bottom: 68px;
+}
+
+.card__inner {
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-top: 16px;
+  background: rgba(250, 250, 250, 0);
+  transition: background .1s linear;
+}
+
+.card__inner:hover {
+  background: rgba(250, 250, 250, 1);
+}
+
+.card__image {
+  width: 100%;
+  /* height: 256px; */
+}
+
+.card__title {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #1D1D1D;
+}
+
+.card__cat {
+  font-size: 14px;
+  margin: 4px 0;
+
+  color: #626262;
+}
+
+.card__time {
+  color: #1D1D1D;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="restaurant.css">
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css">
+  <title>Uber Eats</title>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo"><img src="./images/logo.svg" alt="UBER EATS"></a>
+      <div class="header__btns">
+        <a href="#" class="login__btn">Войти</a>
+        <a href="#" class="hidden-xs basket"><img src="./images/basket.svg" alt="Basket"></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main" role="main">
+
+<div class="hero">
+  <div class="container">
+    <div class="hcard">
+      <h1 class="hcard__title">Трактир «Пушкин»</h1>
+      <div class="hcard__bottom">
+        <div class="hcard__cat">₽₽₽ • Европейская</div>
+        <div class="hcard__time">40 - 50 мин</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="container">
+    <a class="nav__item active" href="#">Закуски</a>
+    <a class="nav__item" href="#">Салаты</a>
+    <a class="nav__item" href="#">Супы</a>
+    <a class="nav__item" href="#">Горячие блюда</a>
+    <a class="nav__item" href="#">Гарниры</a>
+    <a class="nav__item" href="#">Десерты</a>
+  </div>
+</nav>
+
+<div class="snacks">
+  <div class="container">
+    <h2 class="snacks__title">Закуски</h2>
+    <div class="cards">
+      <div class="row">
+        <div class="col-xl-6 col-md-12 col-xs-12">
+          <div class="card"><!-- card -->
+            <div class="card__inner">
+              <h3 class="card__title">Сельдь на бородинском хлебе</h3>
+              <div class="card__description">С яйцом и огурцом</div>
+              <div class="card__price">240 ₽</div>
+            </div>
+            <img src="./images/restaurants/1.png" alt="" class="card__image">
+          </div><!-- /.card -->
+        </div>
+        <div class="col-xl-6 col-md-12 col-xs-12">
+          <div class="card"><!-- card -->
+            <div class="card__inner">
+              <h3 class="card__title">Соленья ассорти</h3>
+              <div class="card__description"></div>
+              <div class="card__price">320 ₽</div>
+            </div>
+            <img src="./images/restaurants/2.png" alt="" class="card__image">
+          </div><!-- /.card -->
+        </div>
+        <div class="col-xl-6 col-md-12 col-xs-12">
+          <div class="card"><!-- card -->
+            <div class="card__inner">
+              <h3 class="card__title">Грибы маринованные</h3>
+              <div class="card__description"></div>
+              <div class="card__price">300 ₽</div>
+            </div>
+            <img src="./images/restaurants/3.png" alt="" class="card__image">
+          </div><!-- /.card -->
+        </div>
+        <div class="col-xl-6 col-md-12 col-xs-12">
+          <div class="card"><!-- card -->
+            <div class="card__inner">
+              <h3 class="card__title">Сало домашнее с горчицей</h3>
+              <div class="card__description"></div>
+              <div class="card__price">320 ₽</div>
+            </div>
+            <img src="./images/restaurants/4.png" alt="" class="card__image">
+          </div><!-- /.card -->
+        </div>
+        <div class="col-xl-6 col-md-12 col-xs-12">
+          <div class="card"><!-- card -->
+            <div class="card__inner">
+              <h3 class="card__title">Малосольная семга</h3>
+              <div class="card__description"></div>
+              <div class="card__price">390 ₽</div>
+            </div>
+            <img src="./images/restaurants/5.png" alt="" class="card__image">
+          </div><!-- /.card -->
+        </div>
+        <div class="col-xl-6 col-md-12 col-xs-12">
+          <div class="card"><!-- card -->
+            <div class="card__inner">
+              <h3 class="card__title">Язык говяжий с хреном</h3>
+              <div class="card__description"></div>
+              <div class="card__price">350 ₽</div>
+            </div>
+            <img src="./images/restaurants/6.png" alt="" class="card__image">
+          </div><!-- /.card -->
+        </div>
+      </div><!-- /.row -->
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__logo"><img src="./images/white-logo.svg" alt="UBER EATS"></div>
+    <hr>
+    <div class="row">
+      <div class="col-xl-4 col-md-4 col-xs-12">
+        <div><!-- Block1 -->
+          <div class="lang__select">
+            <select class="select__inner" name="language" id="lang_select">
+              <option value="ru">Русский</option>
+              <option value="en">English</option>
+            </select>
+          </div>
+          <div class="social">
+            <p class="social__text"><span class="hash">#</span>UberEats</p>
+            <div class="social__icons">
+              <a class="social__icon" href="#"><img src="./images/facebook.svg" alt="Facebook"></a>
+              <a class="social__icon" href="#"><img src="./images/twitter.svg" alt="Twitter"></a>
+              <a class="social__icon" href="#"><img src="./images/instagram.svg" alt="Instagram"></a>
+            </div>
+          </div>
+        </div><!-- /Block1 -->
+      </div>
+      <div class="col-xl-4 col-md-4 col-xs-12">
+        <div class="block2"><!-- Block2 -->
+          <a class="block__link" href="#">Об UberEats</a>
+          <a class="block__link" href="#">Станьте партнёром по доставке</a>
+          <a class="block__link" href="#">Станьте парнёром-рестораном</a>
+        </div>
+      </div><!-- /Block2 -->
+      <div class="col-xl-4 col-md-4 col-xs-12">
+        <div class="block3"><!-- Block3 -->
+          <a class="block__link" href="#">Все города</a>
+          <a class="block__link" href="#">Цены</a>
+          <a class="block__link" href="#">Помощь</a>
+          <a class="block__link" href="#">FAQs</a>
+        </div>
+      </div><!-- /Block3 -->
+    </div><!-- /.row -->
+    <hr>
+    <div class="download__btns">
+      <img class="download__btn" src="./images/appstore.png" alt="">
+      <img class="download__btn" src="./images/googleplay.png" alt="">
+    </div>
+    <hr>
+    <div class="about">
+      <div class="row">
+        <div class="about__link col-xl-4 col-md-4 col-xs-12">© 2017 Uber Technologies Inc.</div>
+        <div class="about__link col-xl-4 col-md-4 col-xs-12"><a href="#">Обработка персональных данных</a></div>
+        <div class="about__link col-xl-4 col-md-4 col-xs-12"><a href="#">Пользовательское соглашение</a></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="up-btn"><img src="./images/btn-up.png" alt="Up"></a>
+
+</body>
+</html>
